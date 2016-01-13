@@ -2,15 +2,14 @@
   "name": "js-interview-practice",
   "version": "1.0.0",
   "description": "a collection of modules to practive interview questions",
-  "main": "main.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "jquery": "^2.1.4",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "browserify js/main.js -o js/bundle.js"
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1"
   },
   "author": "Andy Coles",
   "license": "MIT"
